@@ -1,0 +1,21 @@
+{
+  "name": "posmotri_v_okno",
+  "version": "1.0.0",
+  "description": "https://github.com/boris0501/posmotri_v_okno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint '**/*.css'",
+    "lintfix": "stylelint '**/*.css' --fix",
+    "checkALL": "npm run check && npm run lint",
+    "fixALL": "npm run format && npm run lintfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "stylelint": "^16.11.0"
+  }
+}
